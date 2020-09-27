@@ -4,11 +4,13 @@ The Piazza project is a sub-project of Waltz-Controls. Piazza is a federation of
 
 ![](assets/images_for_WaC_piazza.png)
 
+Message is specified in Waltz-Controls RFC1 [[1](https://github.com/waltz-controls/rfc/tree/master/1)]. Every connector (blue arrows in the picture above) SHOULD define its payload in a corresponging RFC.
+
 Here we define all reposiories that are related to the Piazza project.
 
 ## Magix
 
-Magix is an abstract component. Its API is defined in Waltz-Controls RFC2 [[1](https://github.com/waltz-controls/rfc/tree/master/2)]
+Magix is an abstract component. Its API is defined in Waltz-Controls RFC2 [[2](https://github.com/waltz-controls/rfc/tree/master/2)]
 
 Implementations of the Magix component hide underlaying transport from the client e.g. for single-process deployment it can be ZMQ *inproc* etc
 
@@ -26,7 +28,7 @@ Implementations of the Magix component hide underlaying transport from the clien
 
 ## Connectors
 
-A connector is a component that provides interface between the Magix and upstream endoint(s) e.g. Tango-Controls. Each component SHOULD define message standard that it accepts and sends in Waltz-Controls RFCs
+A connector is a component that provides interface between the Magix and upstream endoint(s) e.g. Tango-Controls. Each component MUST define message's *payload* standard that it accepts and sends in Waltz-Controls RFCs
 
 | Upstream | Platform | State | Transport | RFC | URL |
 |----------|----------|-------|-----|----|-----------|
