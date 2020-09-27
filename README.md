@@ -1,6 +1,8 @@
 # piazza
 
-The Piazza project is a sub-project of Waltz-Controls. Piazza is a federation of connectors governed by the Magix. Magix is a core component that creates a Reactive Stream from a messages flow. 
+The Piazza project is a sub-project of Waltz-Controls. Piazza is a federation of connectors governed by the Magix. Magix is a core component that creates a Reactive Stream from a messages flow:
+
+![](assets/images_for_WaC_piazza.png)
 
 Here we define all reposiories that are related to the Piazza project.
 
@@ -24,8 +26,8 @@ Implementations of the Magix component hide underlaying transport from the clien
 
 ## Connectors
 
-A connector is a component that provides interface between the Magix and upstream endoint(s) e.g. Tango-Controls
+A connector is a component that provides interface between the Magix and upstream endoint(s) e.g. Tango-Controls. Each component SHOULD define message standard that it accepts and sends in Waltz-Controls RFCs
 
-| Platform | State | Transport | URL |
-|----------|-------|-----|-----------|
-| Tomcat   | Experimental | HTTP/SSE | [waltz-controls/tango-magix-connector](https://github.com/waltz-controls/magix-tango-connector) |
+| Platform | State | Transport | RFC | URL |
+|----------|-------|-----|----|-----------|
+| Tomcat   | Experimental | HTTP/SSE | N/A | [waltz-controls/tango-magix-connector](https://github.com/waltz-controls/magix-tango-connector) |
