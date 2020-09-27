@@ -28,6 +28,6 @@ Implementations of the Magix component hide underlaying transport from the clien
 
 A connector is a component that provides interface between the Magix and upstream endoint(s) e.g. Tango-Controls. Each component SHOULD define message standard that it accepts and sends in Waltz-Controls RFCs
 
-| Platform | State | Transport | RFC | URL |
-|----------|-------|-----|----|-----------|
-| Tomcat   | Experimental | HTTP/SSE | N/A | [waltz-controls/tango-magix-connector](https://github.com/waltz-controls/magix-tango-connector) |
+| Upstream | Platform | State | Transport | RFC | URL |
+|----------|----------|-------|-----|----|-----------|
+| Tango-Controls | Tomcat   | Experimental | HTTP/SSE | N/A | [waltz-controls/tango-magix-connector](https://github.com/waltz-controls/magix-tango-connector) |
