@@ -18,7 +18,7 @@ Implementations of the Magix component hide underlaying transport from the clien
 
 | Platform | State | Transport | URL |
 |----------|-------|-----|-----------|
-| Tomcat   | Experimental | HTTP/SSE | [waltz-controls/magix-war-plugin](https://github.com/waltz-controls/magix-war-plugin) |
+| JavaEE   | Experimental | HTTP/SSE | [waltz-controls/magix-war-plugin](https://github.com/waltz-controls/magix-war-plugin) |
 
 **Known client implementations**
 
@@ -34,4 +34,4 @@ A connector is a component that provides interface between the Magix and upstrea
 
 | Upstream | Platform | State | Transport | RFC | URL |
 |----------|----------|-------|-----|----|-----------|
-| Tango-Controls | Tomcat   | Experimental | HTTP/SSE | N/A | [waltz-controls/tango-magix-connector](https://github.com/waltz-controls/magix-tango-connector) |
+| Tango-Controls | JavaEE   | Experimental | HTTP/SSE | N/A | [waltz-controls/tango-magix-connector](https://github.com/waltz-controls/magix-tango-connector) |
