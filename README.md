@@ -6,7 +6,7 @@ The Piazza project is a sub-project of Waltz-Controls. Piazza is a federation of
 
 Message is specified in Waltz-Controls RFC1 [[1](https://github.com/waltz-controls/rfc/tree/master/1)]. Every connector (blue arrows in the picture above) SHOULD define its payload in a corresponging RFC.
 
-Here we define all reposiories that are related to the Piazza project.
+Here we define all repositories that are related to the Piazza project.
 
 ## Magix
 
