@@ -25,6 +25,7 @@ Implementations of the Magix component hide underlaying transport from the clien
 | Platform | State | Transport | URL |
 |----------|-------|-----|-----------|
 | JS6/Browser   | Experimental | HTTP/SSE | [waltz-controls/waltz-magix-plugin](https://github.com/waltz-controls/waltz-magix-plugin) |
+| Python 3.6+ | Experimental | HTTP/SSE | [waltz-controls/magix-python-client](https://github.com/waltz-controls/magix-python-client)
 
 ## Connectors
 
