@@ -19,6 +19,7 @@ Implementations of the Magix component hide underlaying transport from the clien
 | Platform | State | Transport | URL |
 |----------|-------|-----|-----------|
 | JavaEE   | Experimental | HTTP/SSE | [waltz-controls/magix-war-plugin](https://github.com/waltz-controls/magix-war-plugin) |
+| Kotlin   | Experimental | HTTP/SSE/RSockets | [mipt-npm/controls.kt/magix](https://github.com/mipt-npm/controls.kt/tree/dev/magix) |
 
 **Known client implementations**
 
