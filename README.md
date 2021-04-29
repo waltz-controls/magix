@@ -37,3 +37,4 @@ A connector is a component that provides interface between the Magix and upstrea
 | Upstream | Platform | State | Transport | RFC | URL |
 |----------|----------|-------|-----|----|-----------|
 | Tango-Controls | JavaEE   | Experimental | HTTP/SSE | N/A | [waltz-controls/tango-magix-connector](https://github.com/waltz-controls/magix-tango-connector) |
+| Controls.kt | Kotlin   | Experimental | HTTP/SSE/RSockets | N/A | [mipt-npm/controls.kt/controls-magix-client](https://github.com/mipt-npm/controls.kt/tree/dev/controls-magix-client) |
