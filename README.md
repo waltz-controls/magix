@@ -14,6 +14,14 @@ Magix is an abstract component. Its API is defined in Waltz-Controls RFC2 [[2](h
 
 Implementations of the Magix component hide underlaying transport from the client e.g. for single-process deployment it can be ZMQ *inproc* etc
 
+Endpoints within piazza exchange messages via Magix. Messages are defined in the corresponding RFCs
+
+**RFCs**
+
+| Platform | Link |
+|-|-|
+| GitHub| [waltz-controls/RFC](https://github.com/waltz-controls/rfc)|
+
 **Known implementations**
 
 | Platform | State | Transport | URL |
@@ -27,6 +35,7 @@ Implementations of the Magix component hide underlaying transport from the clien
 |----------|-------|-----|-----------|
 | JS6/Browser   | Experimental | HTTP/SSE | [waltz-controls/waltz-magix-plugin](https://github.com/waltz-controls/waltz-magix-plugin) |
 | Python 3.6+ | Experimental | HTTP/SSE | [waltz-controls/magix-python-client](https://github.com/waltz-controls/magix-python-client)
+| Java 11+ | Experimental | HTTP/SSE | [waltz-controls/magix-java-client](https://github.com/waltz-controls/magix-java-client)
 
 ## Connectors
 
