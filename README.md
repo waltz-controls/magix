@@ -1,6 +1,6 @@
-# Piazza
+# Magix
 
-The Piazza project is a sub-project of Waltz-Controls. Piazza is a federation of connectors governed by the Magix. Magix is a core component that creates a Reactive Stream from a messages flow:
+The Magix project is a sub-project of Waltz-Controls. Piazza is a federation of connectors governed by the Magix. Magix is a core component that creates a Reactive Stream from a messages flow:
 
 ![](assets/images_for_WaC_piazza.png)
 
